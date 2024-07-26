@@ -1,0 +1,607 @@
+
+    Directory: D:\Major-Project\Learning-Log
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          26-07-2024    21:45                .vscode
+d----          26-07-2024    22:05                Include
+d----          26-07-2024    14:11                Lib
+d----          26-07-2024    22:54                Scripts
+d----          26-07-2024    15:39                static
+d----          26-07-2024    15:39                templates
+-a---          26-07-2024    23:03            473 app.py
+-a---          26-07-2024    23:05              0 cammand.txt
+-a---          26-07-2024    14:11            452 pyvenv.cfg
+-a---          26-07-2024    22:55            274 requirements.txt
+-a---          26-07-2024    22:31            133 scriptShell.ps1
+Folder PATH listing for volume New Volume
+Volume serial number is DE05-F575
+D:.
++---.vscode
++---Include
+ª   +---site
+ª       +---python3.12
+ª           +---greenlet
++---Lib
+ª   +---site-packages
+ª       +---alembic
+ª       ª   +---autogenerate
+ª       ª   ª   +---__pycache__
+ª       ª   +---ddl
+ª       ª   ª   +---__pycache__
+ª       ª   +---operations
+ª       ª   ª   +---__pycache__
+ª       ª   +---runtime
+ª       ª   ª   +---__pycache__
+ª       ª   +---script
+ª       ª   ª   +---__pycache__
+ª       ª   +---templates
+ª       ª   ª   +---async
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---generic
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---multidb
+ª       ª   ª       +---__pycache__
+ª       ª   +---testing
+ª       ª   ª   +---plugin
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---suite
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---util
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---alembic-1.13.2.dist-info
+ª       +---blinker
+ª       ª   +---__pycache__
+ª       +---blinker-1.8.2.dist-info
+ª       +---click
+ª       ª   +---__pycache__
+ª       +---click-8.1.7.dist-info
+ª       +---colorama
+ª       ª   +---tests
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---colorama-0.4.6.dist-info
+ª       ª   +---licenses
+ª       +---flask
+ª       ª   +---json
+ª       ª   ª   +---__pycache__
+ª       ª   +---sansio
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---flask-3.0.3.dist-info
+ª       +---flask_migrate
+ª       ª   +---templates
+ª       ª   ª   +---aioflask
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---aioflask-multidb
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---flask
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---flask-multidb
+ª       ª   ª       +---__pycache__
+ª       ª   +---__pycache__
+ª       +---Flask_Migrate-4.0.7.dist-info
+ª       +---flask_sqlalchemy
+ª       ª   +---__pycache__
+ª       +---flask_sqlalchemy-3.1.1.dist-info
+ª       +---greenlet
+ª       ª   +---platform
+ª       ª   ª   +---__pycache__
+ª       ª   +---tests
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---greenlet-3.0.3.dist-info
+ª       +---itsdangerous
+ª       ª   +---__pycache__
+ª       +---itsdangerous-2.2.0.dist-info
+ª       +---jinja2
+ª       ª   +---__pycache__
+ª       +---jinja2-3.1.4.dist-info
+ª       +---mako
+ª       ª   +---ext
+ª       ª   ª   +---__pycache__
+ª       ª   +---testing
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---Mako-1.3.5.dist-info
+ª       +---markupsafe
+ª       ª   +---__pycache__
+ª       +---MarkupSafe-2.1.5.dist-info
+ª       +---pip
+ª       ª   +---_internal
+ª       ª   ª   +---cli
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---commands
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---distributions
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---index
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---locations
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---metadata
+ª       ª   ª   ª   +---importlib
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---models
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---network
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---operations
+ª       ª   ª   ª   +---build
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---install
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---req
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---resolution
+ª       ª   ª   ª   +---legacy
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---resolvelib
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---utils
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---vcs
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---_vendor
+ª       ª   ª   +---cachecontrol
+ª       ª   ª   ª   +---caches
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---certifi
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---distlib
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---distro
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---idna
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---msgpack
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---packaging
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---pkg_resources
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---platformdirs
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---pygments
+ª       ª   ª   ª   +---filters
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---formatters
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---lexers
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---styles
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---pyproject_hooks
+ª       ª   ª   ª   +---_in_process
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---requests
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---resolvelib
+ª       ª   ª   ª   +---compat
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---rich
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---tenacity
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---tomli
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---truststore
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---urllib3
+ª       ª   ª   ª   +---contrib
+ª       ª   ª   ª   ª   +---_securetransport
+ª       ª   ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---packages
+ª       ª   ª   ª   ª   +---backports
+ª       ª   ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---util
+ª       ª   ª   ª   ª   +---__pycache__
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---pip-24.1.2.dist-info
+ª       +---sqlalchemy
+ª       ª   +---connectors
+ª       ª   ª   +---__pycache__
+ª       ª   +---cyextension
+ª       ª   ª   +---__pycache__
+ª       ª   +---dialects
+ª       ª   ª   +---mssql
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---mysql
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---oracle
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---postgresql
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---sqlite
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---engine
+ª       ª   ª   +---__pycache__
+ª       ª   +---event
+ª       ª   ª   +---__pycache__
+ª       ª   +---ext
+ª       ª   ª   +---asyncio
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---declarative
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---mypy
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---future
+ª       ª   ª   +---__pycache__
+ª       ª   +---orm
+ª       ª   ª   +---__pycache__
+ª       ª   +---pool
+ª       ª   ª   +---__pycache__
+ª       ª   +---sql
+ª       ª   ª   +---__pycache__
+ª       ª   +---testing
+ª       ª   ª   +---fixtures
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---plugin
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---suite
+ª       ª   ª   ª   +---__pycache__
+ª       ª   ª   +---__pycache__
+ª       ª   +---util
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---SQLAlchemy-2.0.31.dist-info
+ª       +---typing_extensions-4.12.2.dist-info
+ª       +---werkzeug
+ª       ª   +---datastructures
+ª       ª   ª   +---__pycache__
+ª       ª   +---debug
+ª       ª   ª   +---shared
+ª       ª   ª   +---__pycache__
+ª       ª   +---middleware
+ª       ª   ª   +---__pycache__
+ª       ª   +---routing
+ª       ª   ª   +---__pycache__
+ª       ª   +---sansio
+ª       ª   ª   +---__pycache__
+ª       ª   +---wrappers
+ª       ª   ª   +---__pycache__
+ª       ª   +---__pycache__
+ª       +---werkzeug-3.0.3.dist-info
+ª       +---__pycache__
++---Scripts
++---static
++---templates
+from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+    def __repr__(self):
+        return f'<User {self.username}>'
+    
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+@app.route('/create-topic')
+def create_topic():
+    return render_template('create-topic.html')
+
+  
+
+if __name__ == '__main__':
+    app.run(debug=True)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brief description of your website">
+    <meta name="keywords" content="keywords related to your website">
+    <title>Learning Log</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <div class="logo">
+                <h1>Learning Log</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/create-topic">Create Topic</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </header>
+    <main>
+        <h1>Welcome to Your Learning Log</h1>
+        <p>Discover, organize, and share your knowledge.</p>
+        <section class="hero">
+            <h2>Discover New Knowledge</h2>
+            <p>Start your learning journey today.</p>
+            <button>Explore Topics</button>
+        </section>
+        <section class="featured-logs">
+            <h2>Featured Logs</h2>
+        </section>
+        <section class="cta">
+            <h2>Create Your Own Learning Log</h2>
+            <a href="create-topic.html">Get Started</a>
+        </section>
+        <article>
+            <h2>My Recent Learnings</h2>
+            <p>...</p>
+        </article>
+        <aside>
+            <h3>Recommended Topics</h3>
+            <ul>
+                <li>...</li>
+                <li>...</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-topic.html">Create Topic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Your Name/Company 2023</p>
+    </footer>
+</body>
+
+</html>
+```
+
+**Explanation:**
+
+- The `login-container` div is used to center the login form and visually separate it from the rest of the page.
+- The login form uses the `form` element with an `id` of `login-form` for potential JavaScript interaction.
+- Input fields for username and password are included with required attributes to ensure users enter both values.
+- A submit button is added to trigger the login process.
+- A link to the signup page is provided for new users.
+
+**Additional Considerations:**
+
+- You can enhance the login form's appearance using CSS styles.
+- Implement JavaScript to handle form submission and validation.
+- Consider adding features like password recovery or social login options.
+
+**Remember:** This is a basic structure. You can customize it further based on your specific requirements and design
+preferences.
+
+**Would you like to proceed with creating the CSS styles for the login page, or do you have any other questions?**
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create Topic</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Create a New Topic</h2>
+        <form id="create-topic-form">
+            <label for="topic-name">Topic Name:</label>
+            <input type="text" id="topic-name" name="topic-name" required>
+
+            <label for="topic-description">Description (optional):</label>
+            <textarea id="topic-description" name="topic-description"></textarea>
+
+            <button type="submit">Create Topic</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Your Name/Company 2023</p>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
+header,
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+nav ul {
+    flex-direction: column;
+    /* Change to column for smaller screens */
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        /* Change back to row for larger screens */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Replace with your preferred font */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    /* CSS rules for small screens */
+  }
+  
+  /* Small screens (small tablets) */
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* CSS rules for small screens */
+  }
+  
+  /* Medium screens (tablets, laptops) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for medium screens */
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for large screens */
+  }
+  
+  /* Extra large screens (large desktops) */
+  @media (min-width: 1200px) {
+    /* CSS rules for extra large screens */
+  }
+  
+
